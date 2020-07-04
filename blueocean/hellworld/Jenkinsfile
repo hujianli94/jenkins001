@@ -4,12 +4,18 @@ node {
       checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'git@github.com:hujianli94/jenkins001.git']]])
    }
    stage('maven Build') {
-      echo 'maven build...'
+      echo 'maven build1...'
+      echo 'maven build2...'
+      echo 'maven build3...'
    }
    stage('deploy') {
-      echo 'deploy...'
+      echo 'deploy1...'
+      echo 'deploy2...'
+      echo 'deploy3...'
    }
    stage('test') {
-      echo 'test...'
+      echo 'test1...'
+      echo 'test2...'
+      echo 'test3...'
    }
 }
