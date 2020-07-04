@@ -6,16 +6,30 @@ node {
    stage('maven Build') {
       echo 'maven build1...'
       echo 'maven build2...'
-      echo 'maven build3...'
+      echo 'maven build2...'
+      echo 'maven build2...'
+      echo 'maven build2...'
+      echo 'maven build2...'
+      echo 'maven build2...'
+      echo 'maven build2...'
    }
    stage('deploy') {
       echo 'deploy1...'
       echo 'deploy2...'
       echo 'deploy3...'
+      echo 'deploy3...'
+      echo 'deploy3...'
+      echo 'deploy3...'
+      echo 'deploy3...'
    }
    stage('test') {
       echo 'test1...'
       echo 'test2...'
+      echo 'test3...'
+      echo 'test3...'
+      echo 'test3...'
+      echo 'test3...'
+      echo 'test3...'
       echo 'test3...'
    }
 }
