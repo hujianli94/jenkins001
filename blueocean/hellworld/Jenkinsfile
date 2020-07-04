@@ -5,11 +5,48 @@ node {
    }
    stage('maven Build') {
       echo 'maven build...'
+      echo 'maven build...'
+      echo 'maven build...'
+      echo 'maven build...'
+      echo 'maven build...'
+      echo 'maven build...'
+      echo 'maven build...'
+      echo 'maven build...'
+      echo 'maven build...'
+      echo 'maven build...'
+      echo 'maven build...'
    }
    stage('deploy') {
       echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
+      echo 'deploy...'
    }
    stage('test') {
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
+      echo 'test...'
       echo 'test...'
    }
 }
